@@ -9,7 +9,7 @@ from operator import itemgetter
 import os
 
 app = Flask(__name__)
-api_key = "AIzaSyCRxSP4yhIw6D4REozENkrFZWOTVBD_Nk4"
+api_key = ""
 gmaps = googlemaps.Client(key=api_key)
 global start_time
 
